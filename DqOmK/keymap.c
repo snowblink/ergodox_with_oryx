@@ -15,9 +15,9 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_ergodox_pretty(
     KC_GRAVE,       KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           TT(1),                                          TT(2),          KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSLS,
-    KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           KC_MAC_COPY,                                    KC_TRANSPARENT, KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_MINUS,
+    KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           KC_MAC_COPY,                                    LGUI(KC_KP_PLUS), KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_MINUS,
     MT(MOD_LCTL, KC_ESCAPE),KC_A,           KC_S,           KC_D,           KC_F,           KC_G,                                                                           KC_H,           KC_J,           KC_K,           KC_L,           LT(2, KC_SCLN), KC_QUOTE,
-    KC_LEFT_SHIFT,  MT(MOD_LCTL, KC_Z),KC_X,           KC_C,           KC_V,           KC_B,           KC_MAC_PASTE,                                   KC_TRANSPARENT, KC_N,           KC_M,           KC_COMMA,       KC_DOT,         MT(MOD_RCTL, KC_SLASH),KC_RIGHT_SHIFT,
+    KC_LEFT_SHIFT,  MT(MOD_LCTL, KC_Z),KC_X,           KC_C,           KC_V,           KC_B,           KC_MAC_PASTE,                                   LGUI(KC_KP_MINUS), KC_N,           KC_M,           KC_COMMA,       KC_DOT,         MT(MOD_RCTL, KC_SLASH),KC_RIGHT_SHIFT,
     LT(1, KC_GRAVE),KC_QUOTE,       CW_TOGG,        KC_LEFT,        KC_RIGHT,                                                                                                       KC_LEFT_GUI,    KC_LEFT_ALT,    KC_LEFT_CTRL,   KC_TRANSPARENT, KC_TRANSPARENT,
                                                                                                     KC_MINUS,       KC_EQUAL,       KC_LBRC,        KC_RBRC,
                                                                                                                     KC_HOME,        KC_DELETE,
