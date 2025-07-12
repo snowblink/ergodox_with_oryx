@@ -1,4 +1,4 @@
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "DqOmK/nlYQ7G"
+#define SERIAL_NUMBER "DqOmK/bvJgzQ"
 #define LAYER_STATE_8BIT
 
